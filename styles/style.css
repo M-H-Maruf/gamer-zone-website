@@ -13,6 +13,12 @@
     font-weight: 600;
     margin: 1rem;
 }
+.linear {
+    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 /* header styles */
 header {
@@ -109,10 +115,6 @@ nav a {
     font-family: Work Sans;
     font-size: 6rem;
     font-weight: 800;
-    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 .banner-point {
     margin-top: 1rem;
@@ -142,6 +144,55 @@ nav a {
     background-color: #4ec5f7;
 }
 
+/* we are styles */
+.we-are {
+    max-width: 75rem;
+    margin: 5rem auto;
+    display: flex;
+}
+.we-are-left img {
+    width: 32rem;
+}
+.we-are-right {
+    text-align: right;
+}
+.we-are-title {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.we-are-description {
+    color: #534c64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+.know-more {
+    margin-top: 1.5rem;
+    margin-right: 0px;
+    background-color: #ff42a5;
+    color: #fff;
+}
+.we-are h4 {
+    color: #534c64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px; 
+}
+.we-are h3 {
+    color: #534c64;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
 /* responsive styles */
 /* mobile styles */
 /* navigation bar styles */
@@ -168,6 +219,24 @@ nav a {
         text-align: center;
         margin-bottom: 9.5rem;
     }
+
+    /* we are styles */
+    .we-are img{
+        width: 20rem;
+    }
+    .we-are{
+        margin: 5rem 1rem;
+        flex-direction: column;
+    }
+    .we-are-right, .we-are-left, .we-are-description{
+        text-align: center;
+    }
+    .we-are-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /* tablet styles */
@@ -192,4 +261,22 @@ nav a {
         text-align: center;
         margin-bottom: 9.5rem;
     }
+
+        /* we are styles */
+        .we-are img{
+            width: 35rem;
+        }
+        .we-are{
+            margin: 5rem 1rem;
+            flex-direction: column;
+        }
+        .we-are-right, .we-are-left, .we-are-description{
+            text-align: center;
+        }
+        .we-are-right{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
 }

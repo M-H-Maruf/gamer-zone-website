@@ -6,7 +6,7 @@
 }
 
 /* header styles */
-header{
+header {
     padding: 0px 4rem;
 }
 /* navigation bar styles */
@@ -74,20 +74,20 @@ nav a {
 /* responsive styles */
 /* mobile styles */
 @media screen and (max-width: 576px) {
-    nav{
+    nav {
         flex-direction: column;
         margin: 3rem 0rem;
         height: auto;
         gap: 2rem;
     }
-    nav ul{
+    nav ul {
         flex-direction: column;
     }
 }
 
 /* tablet styles */
-@media screen and (min-width: 576px) and (max-width:992px){
-    nav{
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    nav {
         flex-direction: column;
         margin: 3rem 0rem;
         height: auto;

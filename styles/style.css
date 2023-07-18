@@ -1,6 +1,6 @@
 /* shared styles */
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap");
+* {
     padding: 0px;
     margin: 0px;
 }
@@ -9,63 +9,86 @@
 
 /* navigation bar styles */
 
-nav{
+nav {
     display: flex;
     justify-content: space-around;
     height: 8.125rem;
     align-items: center;
 }
-.nav-title img{
+.nav-title img {
     height: 2.5rem;
 }
-nav h3{
-    
-    color: #0B0223;
+nav h3 {
+    color: #0b0223;
     text-align: center;
-font-family: Work Sans;
-font-size: 2.8125rem;
-font-weight: 700;
+    font-family: Work Sans;
+    font-size: 2.8125rem;
+    font-weight: 700;
 }
-nav span{
+nav span {
     color: #ff42a5;
 }
-nav ul{
+nav ul {
     display: flex;
     gap: 2rem;
     justify-content: center;
     align-items: center;
 }
-nav li{
+nav li {
     list-style: none;
-color: #3C354F;
+    color: #3c354f;
 }
-nav a{
+nav a {
     text-decoration: none;
-color: #3C354F;
+    color: #3c354f;
 }
-.social-link img{
+.social-link img {
     height: 1.5rem;
 }
-.social-link a{
+.social-link a {
     margin: 0px;
 }
-.nav-title{
+.nav-title {
     display: flex;
     gap: 1.25rem;
     justify-content: center;
     align-items: center;
 }
-.nav-link{
-    color: #3C354F;
-text-align: center;
-font-family: Work Sans;
-font-size: 1.125rem;
-font-weight: 500;
+.nav-link {
+    color: #3c354f;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.125rem;
+    font-weight: 500;
 }
-.social-link{
+.social-link {
     display: flex;
     border-radius: 0.5rem;
-    background: rgba(11, 2, 35, 0.10);
+    background: rgba(11, 2, 35, 0.1);
     padding: 1.125rem;
     gap: 1.5rem;
+}
+
+/* responsive styles */
+/* mobile styles */
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+        margin: 3rem 0rem;
+        height: auto;
+        gap: 2rem;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+}
+
+/* tablet styles */
+@media screen and (min-width: 576px) and (max-width:992px){
+    nav{
+        flex-direction: column;
+        margin: 3rem 0rem;
+        height: auto;
+        gap: 2rem;
+    }
 }

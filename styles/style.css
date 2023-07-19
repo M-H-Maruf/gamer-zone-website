@@ -618,6 +618,14 @@ line-height: normal;
         text-align: center;
         font-size: 16px;
     }
+    /* game link styles */
+    .game-link{
+        justify-content: flex-start;
+    }
+    /* footer styles */
+    footer{
+        padding: 80px 10px;
+    }
 }
 
 /* tablet styles */
@@ -682,10 +690,14 @@ line-height: normal;
     .play {
         padding: 2rem;
         position: relative;
+        justify-content: center;
+        align-items: center;
     }
     .play-row img {
-        width: calc(100vw - 4rem);
+        width: calc(100vw - 14rem);
         height: auto;
+        text-align: center;
+        left:20%;
     }
     .iconic-badge {
         width: 7rem;
@@ -693,11 +705,11 @@ line-height: normal;
     }
     .badge-1 {
         bottom: 3rem;
-        right: 5px;
+        left: 5rem;
     }
     .badge-2 {
         bottom: 3rem;
-        right: 5px;
+        left: 5rem;
     }
     .play .section-description {
         text-align: center;
@@ -711,6 +723,7 @@ line-height: normal;
     .career {
         flex-direction: column;
         padding-left: 0.5rem;
+        
         justify-content: center;
         align-items: center;
     }
@@ -738,5 +751,14 @@ line-height: normal;
     .career-description {
         text-align: center;
         font-size: 16px;
+    }
+     /* game link styles */
+     .game-link{
+        justify-content: space-between;
+
+    }
+    /* footer styles */
+    footer{
+        padding: 80px 10px;
     }
 }

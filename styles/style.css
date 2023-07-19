@@ -401,6 +401,34 @@ nav a {
     gap: 1rem;
 }
 
+/* game link styles */
+.game-link {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 150px 0px;
+    justify-content: center;
+    align-items: center;
+}
+.game-card {
+    display: flex;
+    color: #0b0223;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 50px;
+    border: 2px solid transparent;
+}
+.game-card img{
+    margin-right: 1rem;
+}
+.game-card:hover{
+    color: #ff42a5;
+    border: 2px solid #ff42a5;
+}
+
 /* responsive styles */
 /* mobile styles */
 /* navigation bar styles */

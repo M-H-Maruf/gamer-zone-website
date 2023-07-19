@@ -340,9 +340,65 @@ nav a {
     position: relative;
     width: 15rem;
     bottom: 12rem;
+    left: 45rem;
 }
 .anywhere {
     flex-direction: row;
+}
+
+/* career styles */
+.career {
+    display: flex;
+    padding-left: 7rem;
+    justify-content: space-between;
+    background-color: #ff42a5;
+    margin-bottom: 5rem;
+}
+.career-list {
+    display: flex;
+    width: 100%;
+}
+.career li {
+    list-style: none;
+    color: #fff;
+    color: #fff;
+    font-family: Work Sans;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.career img {
+    max-width: 49rem;
+}
+.career-title {
+    color: #fff;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+.career-description {
+    color: #fff;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.career button {
+    color: #ff42a5;
+    margin: 0;
+    width: fit-content;
+}
+.li-right {
+    text-align: right;
+}
+.career-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 575px;
+    gap: 1rem;
 }
 
 /* responsive styles */
@@ -436,6 +492,37 @@ nav a {
     .play .section-title {
         text-align: center;
     }
+
+    /* career styles */
+    .career {
+        flex-direction: column;
+        padding-left: 0.5rem;
+    }
+    .career-left {
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+    }
+    .career-right {
+        padding: 70px 0px 80px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .career img {
+        text-align: center;
+        width: 60vw;
+        margin: 100px auto;
+    }
+    .career li,
+    button {
+        font-size: 17px;
+    }
+    .career-description {
+        text-align: center;
+        font-size: 16px;
+    }
 }
 
 /* tablet styles */
@@ -523,5 +610,38 @@ nav a {
     }
     .play .section-title {
         text-align: center;
+    }
+
+    /* career styles */
+    .career {
+        flex-direction: column;
+        padding-left: 0.5rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .career-left {
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+    }
+    .career-right {
+        padding: 70px 0px 80px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .career img {
+        text-align: center;
+        width: 60vw;
+        margin: 100px auto;
+    }
+    .career li,
+    button {
+        font-size: 17px;
+    }
+    .career-description {
+        text-align: center;
+        font-size: 16px;
     }
 }

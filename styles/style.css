@@ -693,11 +693,18 @@ line-height: normal;
         justify-content: center;
         align-items: center;
     }
+    .play-img{
+        display: flex;
+        width:100vw;
+        justify-content: center;
+        align-items: center;
+
+    }
     .play-row img {
         width: calc(100vw - 14rem);
         height: auto;
         text-align: center;
-        left:20%;
+        margin: 0px auto;
     }
     .iconic-badge {
         width: 7rem;

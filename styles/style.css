@@ -421,12 +421,79 @@ nav a {
     border-radius: 50px;
     border: 2px solid transparent;
 }
-.game-card img{
+.game-card img {
     margin-right: 1rem;
 }
-.game-card:hover{
+.game-card:hover {
     color: #ff42a5;
     border: 2px solid #ff42a5;
+}
+
+/* footer styles */
+footer {
+    background-color: #0b0223;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 150px;
+}
+footer .foot-title {
+    display: flex;
+    color: #fff;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    justify-content: center;
+    align-items: center;
+}
+.foot-title span {
+    color: #ff42a5;
+}
+.foot-link {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.foot-icon {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.foot-policy {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.foot-icon i{
+    color: #fff;
+    
+    margin: 2rem 2rem;
+}
+.flink {
+    color: #fff;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    margin: 2rem 2rem;
+
+}
+.foot-policy a, .copyright{
+    margin: 2rem 2rem;
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
 
 /* responsive styles */
